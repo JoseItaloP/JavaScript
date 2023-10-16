@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js" defer></script>
+    <title>post</title>
+</head>
+<body>
+    <p id="loading">Carregando...</p>
+    <div id="post" class="hide">
+        <a href="index.html">Voltar</a>
+        <dir id="post-container"></dir>
+        <h2>Comentarios:</h2>
+        <form id="coment-form">
+            <div>
+                <label for="email">Seu Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+            </div>
+            <div>
+                <label for="body">Seu Comentario</label>
+                <textarea name="body" id="body" placeholder="Digite seu comentario" required></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+        <div id="commentsContainer"></div>
+    </div>
+</body>
+</html>
